@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full-Stack Developer Portfolio - Showcasing modern web applications and development expertise">
+    <title>Developer Portfolio | Full-Stack Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="accent">&lt;</span>DevName<span class="accent">/&gt;</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="bg-gradient-1"></div>
+        <div class="bg-gradient-2"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Hi, I'm Alex Chen</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Full-Stack Developer
+                        <span class="accent-text">& Product Builder</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        I craft exceptional digital experiences through elegant code and thoughtful design. 
+                        Specializing in React, TypeScript, and modern web technologies.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i data-lucide="download"></i>
+                            Download Resume
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            View Projects
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                        <a href="mailto:hello@example.com" class="social-link" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="floating-element">
+                        <div class="ring ring-1"></div>
+                        <div class="ring ring-2"></div>
+                        <div class="ring ring-3"></div>
+                        <div class="center-avatar"></div>
+                        <div class="floating-dots">
+                            <div class="dot dot-1"></div>
+                            <div class="dot dot-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container-small">
+                <div class="section-header">
+                    <div class="section-label">About Me</div>
+                    <h2 class="section-title">Building Digital Products</h2>
+                    <p class="section-subtitle">Passionate about creating seamless user experiences and scalable systems</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-content fade-in-left">
+                        <div class="about-text">
+                            <p>
+                                I'm a full-stack developer with a passion for building beautiful, performant web applications. 
+                                My journey in tech started 5 years ago, and since then, I've had the privilege of working at 
+                                startups and enterprise companies.
+                            </p>
+                        </div>
+                        
+                        <div class="about-text">
+                            <p>
+                                I specialize in modern JavaScript frameworks and have a strong foundation in both frontend 
+                                and backend technologies. When I'm not coding, you'll find me contributing to open source, 
+                                writing technical articles, or exploring new technologies.
+                            </p>
+                        </div>
+
+                        <div class="about-text">
+                            <p>
+                                Currently, I'm focused on building accessible, inclusive products and mentoring junior developers 
+                                to help them grow in their careers.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-highlights fade-in-right">
+                        <div class="highlight-card">
+                            <i data-lucide="calendar" class="highlight-icon"></i>
+                            <div class="highlight-label">Experience</div>
+                            <div class="highlight-value">5+ Years</div>
+                        </div>
+                        <div class="highlight-card">
+                            <i data-lucide="map-pin" class="highlight-icon"></i>
+                            <div class="highlight-label">Location</div>
+                            <div class="highlight-value">San Francisco, CA</div>
+                        </div>
+                        <div class="highlight-card">
+                            <i data-lucide="code-2" class="highlight-icon"></i>
+                            <div class="highlight-label">Main Stack</div>
+                            <div class="highlight-value">React / Node.js</div>
+                        </div>
+                        <div class="highlight-card">
+                            <i data-lucide="briefcase" class="highlight-icon"></i>
+                            <div class="highlight-label">Current Role</div>
+                            <div class="highlight-value">Senior Engineer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container-small">
+                <div class="section-header">
+                    <div class="section-label">Career Journey</div>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">A timeline of my professional growth and key contributions</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-dot"></div>
+                        
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">Senior Full-Stack Engineer</h3>
+                                    <div class="experience-meta">
+                                        <span class="accent">TechCorp Inc.</span>
+                                        <span>•</span>
+                                        <span>San Francisco, CA</span>
+                                    </div>
+                                </div>
+                                <div class="experience-period">
+                                    <i data-lucide="briefcase"></i>
+                                    2022 - Present
+                                </div>
+                            </div>
+
+                            <ul class="experience-achievements">
+                                <li>Led development of a microservices architecture serving 2M+ users, improving system reliability by 40%</li>
+                                <li>Architected and implemented real-time collaboration features using WebSockets and Redis</li>
+                                <li>Mentored team of 5 junior developers, establishing coding standards and review processes</li>
+                                <li>Optimized application performance, reducing initial load time by 60% through code splitting and lazy loading</li>
+                            </ul>
+
+                            <div class="experience-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-dot"></div>
+                        
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">Full-Stack Developer</h3>
+                                    <div class="experience-meta">
+                                        <span class="accent">StartupXYZ</span>
+                                        <span>•</span>
+                                        <span>Remote</span>
+                                    </div>
+                                </div>
+                                <div class="experience-period">
+                                    <i data-lucide="briefcase"></i>
+                                    2020 - 2022
+                                </div>
+                            </div>
+
+                            <ul class="experience-achievements">
+                                <li>Built and shipped 15+ features for SaaS platform, increasing user engagement by 35%</li>
+                                <li>Designed and developed RESTful APIs with comprehensive documentation and testing</li>
+                                <li>Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes</li>
+                                <li>Collaborated with design team to create responsive, accessible user interfaces</li>
+                            </ul>
+
+                            <div class="experience-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Jest</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-line timeline-line-last"></div>
+                        <div class="timeline-dot"></div>
+                        
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">Frontend Developer</h3>
+                                    <div class="experience-meta">
+                                        <span class="accent">Digital Agency Co.</span>
+                                        <span>•</span>
+                                        <span>New York, NY</span>
+                                    </div>
+                                </div>
+                                <div class="experience-period">
+                                    <i data-lucide="briefcase"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+
+                            <ul class="experience-achievements">
+                                <li>Developed pixel-perfect, responsive websites for 20+ clients across various industries</li>
+                                <li>Integrated third-party APIs and services including payment gateways and analytics</li>
+                                <li>Improved website performance scores to 90+ on Google Lighthouse</li>
+                                <li>Created reusable component library that reduced development time by 25%</li>
+                            </ul>
+
+                            <div class="experience-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Sass</span>
+                                <span class="tech-tag">WordPress</span>
+                                <span class="tech-tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container-large">
+                <div class="section-header">
+                    <div class="section-label">Portfolio</div>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A selection of projects I've built, ranging from web apps to mobile solutions</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1717996563514-e3519f9ef9f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="AI-Powered Task Manager">
+                            <div class="project-overlay">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-secondary">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">AI-Powered Task Manager</h3>
+                            <p class="project-description">
+                                A modern productivity app with AI-powered task suggestions, real-time collaboration, and smart notifications. Built with React and Node.js.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">OpenAI</span>
+                                <span class="tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-text-link">
+                                    <i data-lucide="external-link"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-text-link-secondary">
+                                    <i data-lucide="github"></i>
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Fitness Tracking Mobile App">
+                            <div class="project-overlay">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-secondary">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fitness Tracking Mobile App</h3>
+                            <p class="project-description">
+                                Cross-platform mobile application for tracking workouts, nutrition, and health metrics with beautiful data visualizations and social features.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Redux</span>
+                                <span class="tag">Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-text-link">
+                                    <i data-lucide="external-link"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-text-link-secondary">
+                                    <i data-lucide="github"></i>
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Business Analytics Dashboard">
+                            <div class="project-overlay">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-secondary">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Business Analytics Dashboard</h3>
+                            <p class="project-description">
+                                Comprehensive analytics platform with real-time data visualization, custom reporting, and team collaboration features for enterprise clients.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">Recharts</span>
+                                <span class="tag">Prisma</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-text-link">
+                                    <i data-lucide="external-link"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-text-link-secondary">
+                                    <i data-lucide="github"></i>
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-secondary">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">
+                                Full-featured online store with product management, cart functionality, secure checkout, and admin dashboard. Integrated with Stripe for payments.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Stripe</span>
+                                <span class="tag">AWS S3</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-text-link">
+                                    <i data-lucide="external-link"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-text-link-secondary">
+                                    <i data-lucide="github"></i>
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container-medium">
+                <div class="section-header">
+                    <div class="section-label">Tech Stack</div>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Tools and technologies I work with to bring ideas to life</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <div class="category-line"></div>
+                            <h3 class="category-title">Frontend</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="code-2" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">React</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="code-2" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">TypeScript</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="layout" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Next.js</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="palette" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Tailwind CSS</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="code-2" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Vue.js</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="smartphone" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">React Native</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <div class="category-line"></div>
+                            <h3 class="category-title">Backend</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="server" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Node.js</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="server" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Express</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="database" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">PostgreSQL</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="database" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">MongoDB</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="zap" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">GraphQL</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="server" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">REST APIs</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Tools -->
+                    <div class="skills-category">
+                        <div class="category-header">
+                            <div class="category-line"></div>
+                            <h3 class="category-title">DevOps & Tools</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="git-branch" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Git</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="box" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Docker</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="cloud" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">AWS</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="wrench" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">CI/CD</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="terminal" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Linux</div>
+                                    <div class="skill-level intermediate">Intermediate</div>
+                                </div>
+                            </div>
+                            <div class="skill-badge fade-in-up">
+                                <i data-lucide="cloud" class="skill-icon"></i>
+                                <div class="skill-info">
+                                    <div class="skill-name">Vercel</div>
+                                    <div class="skill-level advanced">Advanced</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section">
+            <div class="container-medium">
+                <div class="section-header">
+                    <div class="section-label">Testimonials</div>
+                    <h2 class="section-title">What People Say</h2>
+                    <p class="section-subtitle">Feedback from colleagues and clients I've worked with</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in-up">
+                        <i data-lucide="quote" class="testimonial-quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Alex is an exceptional developer who consistently delivers high-quality work. Their ability to tackle complex problems and mentor junior developers made a significant impact on our team."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">S</div>
+                            <div class="author-info">
+                                <div class="author-name">Sarah Johnson</div>
+                                <div class="author-role">CTO at TechCorp Inc.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card fade-in-up">
+                        <i data-lucide="quote" class="testimonial-quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Working with Alex was a pleasure. They brought innovative solutions to our product and helped us scale our infrastructure to handle millions of users. Highly recommend!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">M</div>
+                            <div class="author-info">
+                                <div class="author-name">Michael Chen</div>
+                                <div class="author-role">Product Manager at StartupXYZ</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card fade-in-up">
+                        <i data-lucide="quote" class="testimonial-quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Alex has a rare combination of technical expertise and great communication skills. They can explain complex concepts clearly and always deliver projects on time."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">E</div>
+                            <div class="author-info">
+                                <div class="author-name">Emily Rodriguez</div>
+                                <div class="author-role">Design Lead at Digital Agency Co.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container-medium">
+                <div class="section-header">
+                    <div class="section-label">Get In Touch</div>
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info fade-in-left">
+                        <div class="contact-info-items">
+                            <div class="contact-info-item">
+                                <div class="contact-icon-box">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-label">Email</div>
+                                    <div class="contact-value">hello@alexchen.dev</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-box">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-label">Location</div>
+                                    <div class="contact-value">San Francisco, CA</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-box">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-label">Availability</div>
+                                    <div class="contact-value">Open to opportunities</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fun-fact-box">
+                            <h4 class="fun-fact-title">Fun Fact</h4>
+                            <p class="fun-fact-text">
+                                When I'm not coding, you'll find me hiking in the mountains, experimenting with 
+                                photography, or contributing to open-source projects!
+                            </p>
+                        </div>
+
+                        <div class="contact-social">
+                            <p class="contact-social-label">Connect with me</p>
+                            <div class="contact-social-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                    <i data-lucide="twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper fade-in-right">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    class="form-input" 
+                                    placeholder="Your name" 
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="form-input" 
+                                    placeholder="your.email@example.com" 
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    class="form-textarea" 
+                                    placeholder="Tell me about your project..." 
+                                    rows="5" 
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                                <i data-lucide="send"></i>
+                                <span id="btnText">Send Message</span>
+                            </button>
+
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-large">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>© <span id="currentYear"></span> Alex Chen. All rights reserved.</p>
+                    <p class="footer-built">
+                        Built with <i data-lucide="heart" class="heart-icon"></i> using HTML, CSS & JavaScript
+                    </p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i data-lucide="twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sandwitch</title>
+
+<style>
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: "Oswald", sans-serif;
+   color: white;
+}
+.wrapper{
+max-width: 1000px;
+margin: 0 auto;
+background-color: pink;
+}
+
+.sandwitch-section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.sandwitch-section h1{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: orangered;
+}
+.sandwitch-items{
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+}
+.sandwitch-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.sandwitch-cards .card{
+    width: 220px;
+    height: 391px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+.sandwitch-cards .card img{
+    width: 100%;
+    height: 269px;
+    object-fit: cover;
+}
+.sandwitch-cards .card p{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.sandwitch-cards .card button{
+    width: 100%;
+    height: 44px;
+    background-color: #ff0000;
+    /* background-color: #ff6b6b; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+
+<body>
+    <section class="sandwitch-section">
+        <div class="wrapper">
+            <h1>SANDWITCH SECTION</h1>
+            <div class="sandwitch-items">
+                <div class="sandwitch-cards">
+                    <!-- dynamic adding new cards throuch array in js -->
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <script src="products.js"></script>
+</body>
+
+</html>
